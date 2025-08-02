@@ -6,16 +6,16 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Калькулятор РУС">
+    <meta name="apple-mobile-web-app-title" content="Ximik">
     <meta name="theme-color" content="#302b63">
     
-    <!-- Обновленный PWA Manifest с правильным названием -->
-    <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogItCa0LDQu9C10L3RgtCw0Y8g0KDQoyDRgNCw0YHRgdGC0L7QstCw0L3QuNGPIiwKICAic2hvcnRfbmFtZSI6ICLQmtCw0LvQtdC90YLQsNGPINCg0KMg0YDQsNGB0YHRgtC+0LLQsNC90LjRjyIsCiAgImRlc2NyaXB0aW9uIjogItCi0L7QtNC40LzQsCDRgNCw0LHQvtGA0LDQvdC90YvRhSDQv9C+0LvRg9GH0LXQvdC40LUg0LzQvtC20LXRgyIsCiAgInN0YXJ0X3VybCI6ICIuIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjMzAyYjYzIiwKICAidGhlbWVfY29sb3IiOiAiIzMwMmI2MyIsCiAgIm9yaWVudGF0aW9uIjogInBvcnRyYWl0IiwKICAiaWNvbnMiOiBbCiAgICB7CiAgICAgICJzcmMiOiAiZGF0YTppbWFnZS9zdmcreG1sLCUzQ3N2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nI2ZmZiclM0UlM0NwYXRoIGQ9J00xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeicvJTNFJTNDcGF0aCBkPSdNMTIgMTguNWM0LjQxIDAgOC0zLjU5IDgtOHMtMy41OS04LTgtOC04IDMuNTktOCA4IDMuNTkgOCA4IDh6Jy8lM0UlM0NwYXRoIGQ9J00xMi41IDdIMTF2Nmw1LjI1IDMuMTUuNzUtMS4yM0wxMiAxMi4yNVY3eicvJTNFJTNDL3N2ZyUzRSIsCiAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgInR5cGUiOiAiaW1hZ2Uvc3ZnK3htbCIKICAgIH0KICBdCn0=">
+    <!-- PWA Manifest с измененным названием -->
+    <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIlhpbWlrIiwKICAic2hvcnRfbmFtZSI6ICJYaW1payIsCiAgImRlc2NyaXB0aW9uIjogItCQ0LLRgNC40LLQvtC70YzQvdC40Y8g0YDQsNCx0L7RgNCw0L3QvdGL0YUg0L/QvtC70YPRh9C10L3QuNC1INC80L7QttC10YMiLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiIzMwMmI2MyIsCiAgInRoZW1lX2NvbG9yIjogIiMzMDJiNjMiLAogICJvcmllbnRhdGlvbiI6ICJwb3J0cmFpdCIsCiAgImljb25zIjogWwogICAgewogICAgICAic3JjIjogImRhdGE6aW1hZ2Uvc3ZnK3htbCwlM0NzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgMjQgMjQnIGZpbGw9JyNmZmYnJTNFJTNDcGF0aCBkPSdNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAxOGMtNC40MSAwLTgtMy41OS04LThzMy41OS04IDgtOCA4IDMuNTkgOCA4LTMuNTkgOC04IDh6JyUzRSUzQy9wYXRoJTNFJTNDcGF0aCBkPSdNMTIuNSA3SDExdjZsNS4yNSAzLjE1Ljc1LTEuMjNMMTIgMTIuMjVWNzonJTNFJTNDL3BhdGglM0UlM0Mvc3ZnJTNFIiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9zdmcreG1sIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWwsJTNDc3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgdmlld0JveD0nMCAwIDI0IDI0JyBmaWxsPScjZmZmJyUzRSUzQ3BhdGggZD0nTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04czMuNTktOCA4LTggOCAzLjU5IDggOC0zLjU5IDgtOCA4eiclM0UlM0MvcGF0aCUzRSUzQ3BhdGggZD0nTDEyLjUgN0gxMXY2bDUuMjUgMy4xNS43NS0xLjIzTDEyIDEyLjI1Vjd6JyUzRSUzQy9wYXRoJTNFJTNDL3N2ZyUzRSIsCiAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgInR5cGUiOiAiaW1hZ2Uvc3ZnK3htbCIKICAgIH0sCiAgICB7CiAgICAgICJzcmMiOiAiZGF0YTppbWFnZS9zdmcreG1sLCUzQ3N2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nI2ZmZiclM0UlM0NwYXRoIGQ9J0wxMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHonJTNFJTNDL3BhdGglM0UlM0NwYXRoIGQ9J0wxMi41IDdIMTF2Nmw1LjI1IDMuMTUuNzUtMS4yM0wxMiAxMi4yNVY3eiclM0UlM0MvcGF0aCUzRSUzQy9zdmclM0UiLAogICAgICAic2l6ZXMiOiAiMTUzNngxNTM2IiwKICAgICAgInR5cGUiOiAiaW1hZ2Uvc3ZnK3htbCIKICAgIH0KICBdLAogICJzY3JlZW5zaG90cyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWwsJTNDc3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgdmlld0JveD0nMCAwIDEyOCAxMjgnIGZpbGw9JyMzMDJiNjMnJTNFJTNDcmVjdCB3aWR0aD0nMTI4JyBoZWlnaHQ9JzEyOCcvJTNFJTNDdGV4dCB4PSc2NCcgeT0nNjQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSc0MCcgZmlsbD0nI2ZmZicgdGV4dC1hbmNob3I9J21pZGRsZScgZHk9Jy4zZW0nJTNFWGltaWs8L3RleHQlM0UlM0Mvc3ZnJTNFIiwKICAgICAgInNpemVzIjogIjEyOHgxMjgiLAogICAgICAidHlwZSI6ICJpbWFnZS9zdmcreG1sIgogICAgfQogIF0KfQ==">
     
     <!-- iOS Icons -->
     <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'><path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z'/><path d='M12.5 7H11v6l5.25 3.15.75-1.23L12 12.25V7z'/></svg>">
     
-    <title>Калькулятор РУС</title>
+    <title>Ximik</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
         
@@ -860,8 +860,8 @@
     <div class="particles" id="particles"></div>
     
     <header class="fade-in">
-        <span class="icon">🔬</span>
-        <span>Калькулятор РУС</span>
+        <span class="icon">🧪</span>
+        <span>Ximik</span>
     </header>
     
     <div class="container fade-in">
@@ -1072,7 +1072,7 @@
                     <span class="icon">🔬</span>
                     <span>О приложении</span>
                 </h4>
-                <p>Калькулятор РУС - это инструмент для расчёта объёмов растворов различной плотности</p>
+                <p>Ximik - это инструмент для расчёта объёмов растворов различной плотности</p>
                 
                 <h4>
                     <span class="icon">👥</span>
